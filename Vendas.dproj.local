@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/01 14:24:52.000.546,=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/02 09:05:57.000.016,=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/16 09:04:48.000.488,=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/28 13:40:06.000.251,=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/09/12 08:44:40.000.100,=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/02/03 09:44:06.000.113,=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/02/03 13:27:35.000.142,C:\ProjetosDelphi\uPrincipal.pas=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/02/03 13:27:35.000.142,C:\ProjetosDelphi\uPrincipal.dfm=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2025/02/03 13:27:51.000.694,C:\ProjetosDelphi\Vendas.dproj=C:\Users\devmv\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2025/02/03 13:42:08.000.170,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/03 13:43:28.000.067,C:\ProjetosDelphi\datamodule\uDTMConexao.dfm=C:\ProjetosDelphi\Unit1.dfm</Transaction>
+    <Transaction>2025/02/03 13:43:28.000.067,C:\ProjetosDelphi\datamodule\uDTMConexao.pas=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/03 14:47:09.000.602,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/03 14:47:41.000.871,C:\ProjetosDelphi\heranca\uTelaHeranca.pas=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/03 14:47:41.000.871,C:\ProjetosDelphi\heranca\uTelaHeranca.dfm=C:\ProjetosDelphi\Unit1.dfm</Transaction>
+    <Transaction>2025/02/04 08:20:13.000.182,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/04 08:20:54.000.219,C:\ProjetosDelphi\Unit1.dfm=C:\ProjetosDelphi\cadastro\uCadCategorias.dfm</Transaction>
+    <Transaction>2025/02/04 08:20:54.000.219,C:\ProjetosDelphi\Unit1.pas=C:\ProjetosDelphi\cadastro\uCadCategorias.pas</Transaction>
+    <Transaction>2025/02/04 09:19:02.000.028,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/04 09:19:16.000.401,C:\ProjetosDelphi\Unit1.pas=C:\ProjetosDelphi\heranca\uEnum.pas</Transaction>
+    <Transaction>2025/02/04 14:11:01.000.907,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/04 14:11:36.000.801,C:\ProjetosDelphi\Unit1.pas=C:\ProjetosDelphi\classes\cCadCategoria.pas</Transaction>
+    <Transaction>2025/02/05 10:05:42.000.812,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/05 10:06:07.000.787,C:\ProjetosDelphi\cadastro\uCadCliente.dfm=C:\ProjetosDelphi\Unit1.dfm</Transaction>
+    <Transaction>2025/02/05 10:06:07.000.787,C:\ProjetosDelphi\cadastro\uCadCliente.pas=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/05 11:25:28.000.649,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/05 11:25:44.000.657,C:\ProjetosDelphi\Unit1.pas=C:\ProjetosDelphi\classes\cCadCliente.pas</Transaction>
+    <Transaction>2025/02/05 14:54:24.000.215,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/05 14:54:51.000.465,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/06 08:15:55.000.692,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/06 08:16:41.000.436,C:\ProjetosDelphi\Unit1.pas=C:\ProjetosDelphi\cadastro\uCadProduto.pas</Transaction>
+    <Transaction>2025/02/06 08:16:41.000.436,C:\ProjetosDelphi\Unit1.dfm=C:\ProjetosDelphi\cadastro\uCadProduto.dfm</Transaction>
+    <Transaction>2025/02/06 09:14:06.000.713,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/06 09:14:21.000.464,C:\ProjetosDelphi\Unit1.pas=C:\ProjetosDelphi\classes\cCadProduto.pas</Transaction>
+    <Transaction>2025/02/07 11:44:07.000.147,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/07 11:44:33.000.981,C:\ProjetosDelphi\datamodule\uFrmAtualizaDB.dfm=C:\ProjetosDelphi\Unit1.dfm</Transaction>
+    <Transaction>2025/02/07 11:44:33.000.981,C:\ProjetosDelphi\datamodule\uFrmAtualizaDB.pas=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/07 13:58:06.000.100,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/07 13:58:27.000.240,C:\ProjetosDelphi\datamodule\uDTMVenda.dfm=C:\ProjetosDelphi\Unit1.dfm</Transaction>
+    <Transaction>2025/02/07 13:58:27.000.240,C:\ProjetosDelphi\datamodule\uDTMVenda.pas=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/07 14:16:41.000.667,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/07 14:17:13.000.310,C:\ProjetosDelphi\processo\uProVendas.pas=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/07 14:17:13.000.310,C:\ProjetosDelphi\processo\uProVendas.dfm=C:\ProjetosDelphi\Unit1.dfm</Transaction>
+    <Transaction>2025/02/10 09:07:45.000.601,=C:\ProjetosDelphi\Unit1.pas</Transaction>
+    <Transaction>2025/02/10 09:08:26.000.976,C:\ProjetosDelphi\Unit1.pas=C:\ProjetosDelphi\classes\cProVendas.pas</Transaction>
+  </Transactions>
+</BorlandProject>
