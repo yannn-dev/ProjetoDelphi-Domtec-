@@ -144,6 +144,35 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="classes\cProVendas.pas"/>
+        <DCCReference Include="classes\cControleEstoque.pas"/>
+        <DCCReference Include="relatorio\uRelCadClienteFicha.pas">
+            <Form>frmRelCadClienteFicha</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="relatorio\uRelVendaPorData.pas">
+            <Form>frmRelVendaPorData</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="relatorio\uRelCadCliente.pas">
+            <Form>frmRelCadCliente</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="relatorio\uRelCategoria.pas">
+            <Form>frmRelCategoria</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="relatorio\uRelProduto.pas">
+            <Form>frmRelProduto</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="relatorio\uSelecionarData.pas">
+            <Form>frmSelecionarData</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="relatorio\uRelProdutoCategoria.pas">
+            <Form>frmRelProdutoCategoria</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
