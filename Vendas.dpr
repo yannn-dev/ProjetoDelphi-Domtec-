@@ -18,12 +18,18 @@ uses
   cProVendas in 'classes\cProVendas.pas',
   cControleEstoque in 'classes\cControleEstoque.pas',
   uRelCadClienteFicha in 'relatorio\uRelCadClienteFicha.pas' {frmRelCadClienteFicha},
-  uRelVendaPorData in 'relatorio\uRelVendaPorData.pas' {frmRelVendaPorData},
+  uRelProVenda in 'relatorio\uRelProVenda.pas' {frmRelProVenda},
   uRelCadCliente in 'relatorio\uRelCadCliente.pas' {frmRelCadCliente},
   uRelCategoria in 'relatorio\uRelCategoria.pas' {frmRelCategoria},
   uRelProduto in 'relatorio\uRelProduto.pas' {frmRelProduto},
   uSelecionarData in 'relatorio\uSelecionarData.pas' {frmSelecionarData},
-  uRelProdutoCategoria in 'relatorio\uRelProdutoCategoria.pas' {frmRelProdutoCategoria};
+  uRelProdutoCategoria in 'relatorio\uRelProdutoCategoria.pas' {frmRelProdutoCategoria},
+  uRelVendaPorData in 'relatorio\uRelVendaPorData.pas' {frmRelVendaPorData},
+  uFuncaoCriptografia in 'heranca\uFuncaoCriptografia.pas',
+  uCadUsuario in 'cadastro\uCadUsuario.pas' {frmCadUsuario},
+  cCadUsuario in 'classes\cCadUsuario.pas',
+  uLogin in 'login\uLogin.pas' {frmLogin},
+  Enter in 'terceiros\Enter.pas';
 
 {$R *.res}
 

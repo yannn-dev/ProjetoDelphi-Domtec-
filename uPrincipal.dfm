@@ -15,6 +15,7 @@ object frmPrincipal: TfrmPrincipal
   WindowState = wsMaximized
   OnClose = FormClose
   OnCreate = FormCreate
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object mmPrincipal: TMainMenu
@@ -22,6 +23,13 @@ object frmPrincipal: TfrmPrincipal
     Top = 8
     object CADASTRO1: TMenuItem
       Caption = 'CADASTRO'
+      object USURIO1: TMenuItem
+        Caption = 'USU'#193'RIO'
+        OnClick = USURIO1Click
+      end
+      object N5: TMenuItem
+        Caption = '-'
+      end
       object CLIENTE1: TMenuItem
         Caption = 'CLIENTE'
         OnClick = CLIENTE1Click

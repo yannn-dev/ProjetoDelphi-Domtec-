@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, uDTMConexao, uFrmAtualizaDB, uRelCadCliente, uRelCadClienteFicha;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, uDTMConexao, uFrmAtualizaDB, uRelCadCliente, uRelCadClienteFicha, Enter;
 
 type
   TfrmPrincipal = class(TForm)
@@ -28,6 +28,8 @@ type
     CATEGORIA1: TMenuItem;
     FICHADECLIENTE1: TMenuItem;
     PRODUTOSPORCATEGORIA1: TMenuItem;
+    USURIO1: TMenuItem;
+    N5: TMenuItem;
     procedure menuFecharClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure mniCATEGORIA1Click(Sender: TObject);
@@ -41,9 +43,13 @@ type
     procedure mniPRODUTO2Click(Sender: TObject);
     procedure PRODUTOSPORCATEGORIA1Click(Sender: TObject);
     procedure VENDAPORDATA1Click(Sender: TObject);
+    procedure USURIO1Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
+   { Private declarations }
+    TeclaEnter:TMREnter;
     procedure AtualizacaoBancoDados(aForm: TfrmAtualizaDB);
-    { Private declarations }
+
   public
     { Public declarations }
   end;
@@ -55,7 +61,9 @@ implementation
 
 {$R *.dfm}
 
-uses uCadCategorias, uCadCliente, uCadProduto, uProVendas, uRelCategoria, uRelProduto, uRelProdutoCategoria, uSelecionarData, uRelVendaPorData;
+uses uCadCategorias, uCadCliente, uCadProduto, uProVendas, uRelCategoria,
+     uRelProduto, uRelProdutoCategoria, uSelecionarData,
+     uRelVendaPorData, uCadUsuario, uLogin;
 
 procedure TfrmPrincipal.CATEGORIA1Click(Sender: TObject);
 begin
@@ -113,6 +121,17 @@ begin
   AtualizacaoBancoDados(frmAtualizaDB);
   frmAtualizaDB.Free;
 
+  TeclaEnter := TMREnter.Create(Self);
+  TeclaEnter.FocusEnabled := True;
+  TeclaEnter.FocusColor := clWhite;
+
+end;
+
+procedure TfrmPrincipal.FormShow(Sender: TObject);
+begin
+  frmLogin := TfrmLogin.Create(Self);
+  frmLogin.ShowModal;
+  frmLogin.Release;
 end;
 
 procedure TfrmPrincipal.menuFecharClick(Sender: TObject);
@@ -148,6 +167,13 @@ begin
   frmRelProdutoCategoria.Release;
 end;
 
+procedure TfrmPrincipal.USURIO1Click(Sender: TObject);
+begin
+  frmCadUsuario := TfrmCadUsuario.Create(Self);
+  frmCadUsuario.ShowModal;
+  frmCadUsuario.Release;
+end;
+
 procedure TfrmPrincipal.VENDA1Click(Sender: TObject);
 begin
   frmProVendas := TfrmProVendas.Create(Self);
@@ -179,27 +205,38 @@ procedure TfrmPrincipal.AtualizacaoBancoDados(aForm:TfrmAtualizaDB);
 begin
   aForm.chkConexaoBD.Checked := True;
   aForm.Refresh;
-  Sleep(100);
+  Sleep(75);
+
   dtmPrincipal.qryScriptCategorias.ExecSQL;
   aForm.chkCategoria.Checked := True;
   aForm.Refresh;
-  Sleep(100);
+  Sleep(75);
+
   dtmPrincipal.qryScriptClientes.ExecSQL;
   aForm.chkCliente.Checked := True;
   aForm.Refresh;
-  Sleep(100);
+  Sleep(75);
+
   dtmPrincipal.qryProdutos.ExecSQL;
   aForm.chkProduto.Checked := True;
   aForm.Refresh;
-  Sleep(100);
+  Sleep(75);
+
   dtmPrincipal.qryVendas.ExecSQL;
   aForm.chkVendas.Checked := True;
   aForm.Refresh;
-  Sleep(100);
+  Sleep(75);
+
   dtmPrincipal.qryItensVenda.ExecSQL;
   aForm.chkItensVendas.Checked := True;
   aForm.Refresh;
-  Sleep(100);
+  Sleep(75);
+
+  dtmPrincipal.qryScriptUsuarios.ExecSQL;
+  aForm.chkUsuarios.Checked := True;
+  aForm.Refresh;
+  Sleep(75);
+
 end;
 
 end.
